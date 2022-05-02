@@ -7,7 +7,7 @@
 - Yichen Ji [accepted]
 - Haining Tan [accepted]
 - Ryan Wang [accepted]
-- Eric Jiang [offered]
+- Eric Jiang [accepted]
 - Eric Zhu [offered]
 - Xin Peng [offered]
 
