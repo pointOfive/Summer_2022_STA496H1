@@ -38,7 +38,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 1. Variational Inference (VI)
 
    - Course Notes [Section 3.0.2 (Bayesian) Variational Inference](https://colab.research.google.com/drive/1bFm8kKsFjsVITAScCQeSh2Tn59uk9yGr#cell-opt-VI)
-     - [the link appends (annoyingly) appends "=" at the end: just remove this and you will link directly to the section in question]
+     - [the link (annoyingly) appends "=" at the end: remove this and you'll link directly to the intended section]
    - Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670)
    - Landmark Paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 
