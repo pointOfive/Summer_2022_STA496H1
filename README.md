@@ -21,7 +21,6 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 # Roadmap
 
 0. Importance Sampling (IS)
-
    - [An initial orienting question](BayesImportanceSampling.ipynb)
    - [A quite nice answer to review](Importance_Sampling.pdf)
    - [Relevant reading Givens/Hoeting Chapter 6.4.1](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
