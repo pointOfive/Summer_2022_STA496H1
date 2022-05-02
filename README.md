@@ -7,6 +7,9 @@
 - Yichen Ji
 - Haining Tan
 - Ryan Wang
+- Eric Jiang [offered]
+- Eric Zhu [offered]
+- Xin Peng [offered]
 
 
 
