@@ -4,9 +4,9 @@
 ## Bayesian Analysis of Normalizing Flow Models using Importance Sampling
 
 - Scott Schwartz
-- Yichen Ji
-- Haining Tan
-- Ryan Wang
+- Yichen Ji [accepted]
+- Haining Tan [accepted]
+- Ryan Wang [accepted]
 - Eric Jiang [offered]
 - Eric Zhu [offered]
 - Xin Peng [offered]
