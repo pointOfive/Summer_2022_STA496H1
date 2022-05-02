@@ -20,7 +20,8 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
 # Roadmap
 
-0. Importance Sampling
+0. Importance Sampling (IS)
+
    - [An initial orienting question](BayesImportanceSampling.ipynb)
    - [A quite nice answer to review](Importance_Sampling.pdf)
    - [Relevant reading Givens/Hoeting Chapter 6.4.1](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
@@ -33,3 +34,10 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
      <br><br>
      3. Specifically for our Bayesian context, what is the computational difference between the mathematical forms of the unnormalized and normalized importance weights? Stating this question more directly, what can be said about the marginal likelihood with respect to unnormalized and normalized importance weights and what does that mean, computationally? Hint: "Unfortunately, marginal likelihoods are generally difficult to compute" (https://en.wikipedia.org/wiki/Marginal_likelihood) <br>
      </details>
+
+1. Variational Inference (VI)
+
+   - [Scott's STA410 Course Notes]: (https://colab.research.google.com/drive/1bFm8kKsFjsVITAScCQeSh2Tn59uk9yGr#cell-opt-VI)
+   - Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670)
+   - Landmark Paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
+
