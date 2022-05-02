@@ -7,8 +7,9 @@
 - Yichen Ji [accepted]
 - Haining Tan [accepted]
 - Ryan Wang [accepted]
+- Annie Lu [offered]
 - Eric Jiang [accepted]
-- Eric Zhu [offered]
+- Eric Zhu [deferred]
 - Xin Peng [offered]
 
 
