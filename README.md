@@ -33,7 +33,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
 1. [Variational Inference (VI) (Schwartz Section 3.0.2)](https://colab.research.google.com/drive/1bFm8kKsFjsVITAScCQeSh2Tn59uk9yGr#cell-opt-VI)
    <details><summary>[Click] To make the link above work...</summary> Remove the (annoyingly) appended "=" at the end of the address and you'll link directly to the intended section</details>
-   - Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670)
+   0. Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670)
 
    1. Landmark paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
    
