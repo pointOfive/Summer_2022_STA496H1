@@ -27,7 +27,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 # Roadmap
 
 0. [Importance Sampling (IS) (Givens/Hoeting Chapter 6.4.1)](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
-   - [Some initial orienting questions and partial responses](files/BayesImportanceSampling.ipynb)
+   - [Some initial orienting questions and partial responses for your review](files/BayesImportanceSampling.ipynb)
 
 1. [Variational Inference (VI) (Schwartz STA410 3.0.2)](https://colab.research.google.com/drive/1bFm8kKsFjsVITAScCQeSh2Tn59uk9yGr#cell-opt-VI) <details><summary>[Click] To make the link above work...</summary> Remove the (annoyingly) appended "=" at the end of the address and you'll link directly to the intended section</details>
    
