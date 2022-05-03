@@ -47,7 +47,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
      <details><summary>[Click] To make the link above work...</summary> Remove the (annoyingly) appended "=" at the end of the address and you'll link directly to the intended section</details>
    - Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670)
 
-   1. [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114) (A landmark paper)
+   1. Landmark paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
    
      - [Keras Documentation](https://keras.io/examples/generative/vae/)
      - [Open Source MNIST](https://danijar.com/building-variational-auto-encoders-in-tensorflow/)
@@ -55,7 +55,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
      - Etc.
      <br><br>
 
-   2. [Weight Uncertainty in Neural Networks](https://arxiv.org/abs/1505.05424) (and perhaps see also [The Local Reparameterization Trick](https://arxiv.org/abs/1506.02557))
+   2. Landmark paper: [Weight Uncertainty in Neural Networks](https://arxiv.org/abs/1505.05424) (and perhaps see also [The Local Reparameterization Trick](https://arxiv.org/abs/1506.02557))
 
     - a
     - b
