@@ -26,7 +26,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
 # Roadmap
 
-0. [Importance Sampling (IS): Givens/Hoeting Chapter 6.4.1](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
+0. [Importance Sampling (IS) (Givens/Hoeting Chapter 6.4.1)](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
    - [An initial orienting question](files/BayesImportanceSampling.ipynb)
    - [An initial nice answer to review](files/Importance_Sampling.pdf)
 
