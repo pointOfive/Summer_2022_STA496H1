@@ -55,7 +55,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
      - Etc.
      <br><br>
 
-   2. [Weight Uncertainty in Neural Networks](https://arxiv.org/abs/1505.05424) (and perhaps see also [The Local Reparameterization Trick](https://arxiv.org/abs/1506.02557)
+   2. [Weight Uncertainty in Neural Networks](https://arxiv.org/abs/1505.05424) (and perhaps see also [The Local Reparameterization Trick](https://arxiv.org/abs/1506.02557))
 
     - a
     - b
