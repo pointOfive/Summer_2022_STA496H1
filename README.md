@@ -31,7 +31,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
    - [A quite nice answer to review](Importance_Sampling.pdf)
    - [Relevant reading Givens/Hoeting Chapter 6.4.1](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
 
-     <details><summary>(Click) Points of Consideration</summary>
+     <details><summary>[Click] Points of Consideration</summary>
      <br><br>
      1. Importance Sampling is often presented as a variance reduction technique.  Since our desire is to produce a (weighted) sample representation of the posterior, we do not immediately have an estimates for which variance reduction might apply; however, Bayesian credible intervals are based on percentile ranks within posterior samples, so might we expect variance reduction with respect to our estimates of Bayesian credible intervals?
      <br><br>
@@ -44,7 +44,23 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
    - Course Notes [Section 3.0.2 (Bayesian) Variational Inference](https://colab.research.google.com/drive/1bFm8kKsFjsVITAScCQeSh2Tn59uk9yGr#cell-opt-VI)
 
-     <details><summary>To make the link work...</summary> remove the (annoyingly) appended "=" at the end of the address and you'll link directly to the intended section</details>
+     <details><summary>[Click] To make the link above work...</summary> Remove the (annoyingly) appended "=" at the end of the address and you'll link directly to the intended section</details>
    - Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670)
-   - Landmark Paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 
+   a. [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114) (A landmark paper)
+   
+     - [Keras Documentation](https://keras.io/examples/generative/vae/)
+     - [Open Source MNIST](https://danijar.com/building-variational-auto-encoders-in-tensorflow/)
+     - [Open Source Fashion MNIST](https://learnopencv.com/variational-autoencoder-in-tensorflow/)
+     - Etc.
+
+   b. [Weight Uncertainty in Neural Networks](https://arxiv.org/abs/1505.05424) (and perhaps see also [The Local Reparameterization Trick][https://arxiv.org/abs/1506.02557])
+
+    - a
+    - b
+    - c
+
+2. VI in TensorFlow
+
+   - AutoEncoders
+     
