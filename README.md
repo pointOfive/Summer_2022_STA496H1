@@ -28,17 +28,9 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
 0. Importance Sampling (IS)
    - [An initial orienting question](files/BayesImportanceSampling.ipynb)
-   - [A quite nice answer to review](files/Importance_Sampling.pdf)
-   - [Relevant reading Givens/Hoeting Chapter 6.4.1](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
+      - [Relevant reading Givens/Hoeting Chapter 6.4.1](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
+   - [An initial nice answer to review](files/Importance_Sampling.pdf)
 
-     <details><summary>[Click] Points of Consideration</summary>
-     <br><br>
-     1. Importance Sampling is often presented as a variance reduction technique.  Since our desire is to produce a (weighted) sample representation of the posterior, we do not immediately have an estimates for which variance reduction might apply; however, Bayesian credible intervals are based on percentile ranks within posterior samples, so might we expect variance reduction with respect to our estimates of Bayesian credible intervals?
-     <br><br>
-     2. Generally speaking, what is the difference between unnormalized and normalized importance weights? What are the strengths of each of them that might make them better for a given application context?  Hint: consider the bias characterized in eq. 6.42 in the provided reading.
-     <br><br>
-     3. Specifically for our Bayesian context, what is the computational difference between the mathematical forms of the unnormalized and normalized importance weights? Stating this question more directly, what can be said about the marginal likelihood with respect to unnormalized and normalized importance weights and what does that mean, computationally? Hint: "Unfortunately, marginal likelihoods are generally difficult to compute" (https://en.wikipedia.org/wiki/Marginal_likelihood) <br>
-     </details>
 
 1. Variational Inference (VI)
 
