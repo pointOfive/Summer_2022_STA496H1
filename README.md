@@ -30,9 +30,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
 2. [Variational Inference (VI) (Schwartz STA410 3.0.2)](https://colab.research.google.com/drive/1bFm8kKsFjsVITAScCQeSh2Tn59uk9yGr#cell-opt-VI) <details><summary>[Click] To make the link above work...</summary> Remove the (annoyingly) appended "=" at the end of the address and you'll link directly to the intended section</details>
 
-   1. [An Introduction to VI in TensorFlow](files/DenseVariational.ipynb)
-
-      - The notebook above is based on [this TensorFlow "article"](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html)
+   1. [ Introduction to VI in TensorFlow](files/DenseVariational.ipynb) (based on [this TensorFlow "article"](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html))
 
    2. Landmark paper: [Weight Uncertainty in Neural Networks](https://arxiv.org/abs/1505.05424) (and perhaps see also [The Local Reparameterization Trick](https://arxiv.org/abs/1506.02557))
 
