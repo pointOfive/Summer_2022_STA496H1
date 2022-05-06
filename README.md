@@ -6,6 +6,7 @@
 Scott Schwartz
 
 | Research/Reading | Auxiliary/Deferred |
+|-|-|
 | Yichen Ji   | Neal Jin |
 | Eric Jiang  | Jianing Zhang |
 | Haining Tan | Xin Peng |
