@@ -65,7 +65,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     2. MAF and IAF and RealNVP
     3. Hamiltonian NF
 
-5. SWAG / Stochastic Normalizing Flows
+5. SWAG / Stochastic Normalizing Flows / Etc.
 
 
   
