@@ -39,15 +39,15 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     - Markov Chain Monte Carlo (MCMC): 
       - Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC
     
-   3. Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670) (this may or may not be a useful resource at this stage)
+   3. Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670) (this should just be a reference after reviewing the previous materials)
 
    4. Landmark paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 
-     > Autoencoders are a seminal application of VI; however, they are not focussed on uncertainty charcterization.
-     > Thus, while they serve as a "proof of understanding" exercise of VI, they are tangential to our own efforts.
-     > So skip this for now, but if you wish to return to it later see the [Keras Documentation](https://keras.io/examples/generative/vae/),
-     > and other open source resources, e.g., for [MNIST](https://danijar.com/building-variational-auto-encoders-in-tensorflow/)
-     > and [Fashion MNIST](https://learnopencv.com/variational-autoencoder-in-tensorflow/)
+        > Autoencoders are a seminal application of VI; however, they are not focussed on uncertainty charcterization.
+        > Thus, while they serve as a "proof of understanding" exercise of VI, they are tangential to our own efforts.
+        > So skip this for now, but if you wish to return to it later see the [Keras Documentation](https://keras.io/examples/generative/vae/),
+        > and other open source resources, e.g., for [MNIST](https://danijar.com/building-variational-auto-encoders-in-tensorflow/)
+        > and [Fashion MNIST](https://learnopencv.com/variational-autoencoder-in-tensorflow/)
 
 3. Dropout as Bayes
 
