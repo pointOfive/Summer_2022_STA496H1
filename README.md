@@ -39,7 +39,9 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     - Markov Chain Monte Carlo (MCMC): 
       - Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC
     
-   3. Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670) (hopefully the preceeding materials been sufficient and this is just a reference at this point)
+   3. Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670) 
+    
+        > Hopefully the preceeding materials been sufficient and this is just a reference at this point.
 
    4. Landmark paper: [Auto-Encoding Variational Bayes](https://arxiv.org/abs/1312.6114)
 
