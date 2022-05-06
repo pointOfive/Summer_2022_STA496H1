@@ -53,21 +53,19 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
 3. Dropout as Bayes
 
-  0. Gaussian Processes (GP)
-  1. Dropout as GP approximation is Bayes: 
-     1. Dropout can model Bayes, but Bayes cannot model Dropout
-     2. Other possible limitations and noise
-  2. Dropout IS NOT VI Bayes
+    1. Gaussian Processes (GP)
+    2. Dropout as GP approximation is Bayes: 
+        1. Dropout can model Bayes, but Bayes cannot model Dropout
+        2. Other possible limitations and noise
+    3. Dropout IS NOT VI Bayes
 
 4. Normalizing Flows (NF)
-  1. MADE autoregressive structure
-     - conditional parameter outputs and the chain rule
-  2. MAF and IAF and RealNVP
-  3. Hamiltonian NF
+    1. MADE autoregressive structure
+        - conditional parameter outputs and the chain rule
+    2. MAF and IAF and RealNVP
+    3. Hamiltonian NF
 
-5. SWAG
-
-6. Stochastic Normalizing Flows
+5. SWAG / Stochastic Normalizing Flows
 
 
   
