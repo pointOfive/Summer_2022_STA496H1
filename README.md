@@ -49,10 +49,11 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
 3. Dropout as Bayes
 
-    1. Gaussian Processes (GP)
-    2. Dropout as GP approximation is Bayes: 
-        1. Dropout can model Bayes, but Bayes cannot model Dropout:  Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC
-        2. Other possible limitations and noise
+    1. [Gaussian Processes (GP)](files/GaussianProcesses.ipynb)
+    2. [MC-Dropout can approximate a GP and hence approximate Bayes GP analysis](files/DropoutBayes.ipynb), including
+        - Dropout IS NOT VI Bayes
+	- Dropout can model Bayes, but Bayes cannot model Dropout:  Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC
+        - And some additional "opinions" regarding MC-Dropout
     3. Dropout IS NOT VI Bayes
 
 4. Normalizing Flows (NF)
