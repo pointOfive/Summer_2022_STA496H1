@@ -30,14 +30,13 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
 2. [Variational Inference (VI) (Schwartz STA410 3.0.2)](https://colab.research.google.com/drive/1bFm8kKsFjsVITAScCQeSh2Tn59uk9yGr#cell-opt-VI) <details><summary>[Click] To make the link above work...</summary> Remove the (annoyingly) appended "=" at the end of the address and you'll link directly to the intended section</details>
 
-   1. [ Introduction to VI in TensorFlow](files/DenseVariational.ipynb) (based on [this TensorFlow "article"](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html))
+   1. [Introduction to VI in TensorFlow](files/DenseVariational.ipynb) (based on [this TensorFlow "article"](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html))
 
-   2. Landmark paper: [Weight Uncertainty in Neural Networks](https://arxiv.org/abs/1505.05424) (and perhaps see also [The Local Reparameterization Trick](https://arxiv.org/abs/1506.02557))
+   2. [Bayesian Neural Networks (BNN) / Bayes by Backprop (BNN)](files/BayesByBackprop.ipynb)
 
-    - Another VI example
-    - Bayesian Posterior Analysis 
-    - Markov Chain Monte Carlo (MCMC): 
-      - Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC
+     - relative to Bayesian (posterior) analysis and Markov chain Monte Carlo (MCMC) and PyMC3
+     - Landmark paper: [Weight Uncertainty in Neural Networks](https://arxiv.org/abs/1505.05424) (and perhaps see also [The Local Reparameterization Trick](https://arxiv.org/abs/1506.02557))
+     - Another VI example
     
    3. Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670) 
     
@@ -55,7 +54,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
     1. Gaussian Processes (GP)
     2. Dropout as GP approximation is Bayes: 
-        1. Dropout can model Bayes, but Bayes cannot model Dropout
+        1. Dropout can model Bayes, but Bayes cannot model Dropout:  Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC
         2. Other possible limitations and noise
     3. Dropout IS NOT VI Bayes
 
