@@ -47,14 +47,11 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
         > and other open source resources, e.g., for [MNIST](https://danijar.com/building-variational-auto-encoders-in-tensorflow/)
         > and [Fashion MNIST](https://learnopencv.com/variational-autoencoder-in-tensorflow/)
 
-3. Dropout as Bayes
-
-    1. [The Gaussian Process (GP)](files/GaussianProcesses.ipynb)
-    2. [MC-Dropout as Bayes](files/DropoutBayes.ipynb), including
-         1. Dropout is not VI Bayes
-         2. Dropout is approximate GP Bayes
-         3. Bayes can't model Dropout: Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC
-         4. And some additional "opinions" regarding MC-Dropout
+3. [The Gaussian Process (GP)](files/GaussianProcesses.ipynb) and [MC-Dropout as Bayes](files/DropoutBayes.ipynb), including
+     1. Dropout is not VI Bayes
+     2. Dropout is approximate GP Bayes
+     3. Bayes can't model Dropout: Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC
+     4. And some additional "opinions" regarding MC-Dropout
 
 4. Normalizing Flows (NF)
     1. MADE autoregressive structure
