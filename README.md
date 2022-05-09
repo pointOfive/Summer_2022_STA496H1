@@ -60,16 +60,16 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
      
         > Hopefully the preceeding materials have been sufficient and this is just a reference at this point.
 
+    <details><summary>[Click] At this stage...</summary> 
+   We've seen BNN/BBB and MC-Dropout as characterizing uncertainty in the NN context.<br>
+   And we've also seen more traditional Bayesian analysis with MCMC using PyMC.<br>
+   Can we add something to the Bayesian Deep Learning (BDL) domain?</details>
+
 4. Normalizing Flows (NF)
     1. MADE autoregressive structure
         - conditional parameter outputs and the chain rule
     2. MAF and IAF and RealNVP
     3. Hamiltonian NF
 
-5. [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) / [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) / [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) Etc.
-
-
-  
-
-
-  
+5. [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) / [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) / [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) / Etc.
+    - where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
