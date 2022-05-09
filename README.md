@@ -48,10 +48,10 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
         > and [Fashion MNIST](https://learnopencv.com/variational-autoencoder-in-tensorflow/)
 
 3. [The Gaussian Process (GP)](files/GaussianProcesses.ipynb) and [MC-Dropout as Bayes](files/DropoutBayes.ipynb), including
-     1. Dropout is not VI Bayes
-     2. MC-Dropout can approximate GP Bayes
-     3. Concerns regarding MC-Dropout
-     4. Dropout isn't Bayesian (and MCMC with Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC)
+     1. Dropout is not VI Bayes [[HMG2017](https://arxiv.org/abs/1711.02989) rejects [KSW2015](https://arxiv.org/abs/1506.02557)]
+     2. MC-Dropout can approximate GP Bayes [Tour de force [Thesis](https://t.co/YXw7UX7I9P?amp=1) and resulting Landmark [Manuscript](https://arxiv.org/abs/1506.02142) and [Appendix](https://arxiv.org/abs/1506.02157)]
+     3. Concerns regarding MC-Dropout [from Ian Osband ([1](https://mobile.twitter.com/ianosband/status/1014466510885216256?lang=en), [2](https://www.reddit.com/r/MachineLearning/comments/8w0v9m/d_ian_osband_dropout_posteriors_give_bad/), [3](https://www.reddit.com/r/MachineLearning/comments/emt4ke/discussion_research_variational_bayesian/), [4](http://bayesiandeeplearning.org/2016/papers/BDL_4.pdf)) and [HMG2018](https://arxiv.org/abs/1807.01969)]
+     4. [Dropout isn't Bayesian](https://discourse.pymc.io/t/frequency-of-missing-value-imputation/8809) (and MCMC with Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC)
 
 4. Normalizing Flows (NF)
     1. MADE autoregressive structure
