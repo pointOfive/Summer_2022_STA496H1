@@ -50,8 +50,8 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 3. [The Gaussian Process (GP)](files/GaussianProcesses.ipynb) and [MC-Dropout as Bayes](files/DropoutBayes.ipynb), including
      1. Dropout is not VI Bayes
      2. MC-Dropout can approximate GP Bayes
-     3. But Dropout is not Bayesian: Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC     
-     4. And some additional "opinions" regarding MC-Dropout
+     3. Concerns regarding MC-Dropout
+     4. Dropout isn't Bayesian (and MCMC with Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC)
 
 4. Normalizing Flows (NF)
     1. MADE autoregressive structure
