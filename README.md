@@ -66,7 +66,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     2. MAF and IAF and RealNVP
     3. Hamiltonian NF
 
-5. SWAG / Stochastic Normalizing Flows / Etc.
+5. [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) / [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) / [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) Etc.
 
 
   
