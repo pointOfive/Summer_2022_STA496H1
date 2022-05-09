@@ -54,8 +54,8 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
         2. MC-Dropout is Bayes (when it approximates a posterior which is a GP)
         
            > From the ***tour de force*** [Thesis](https://t.co/YXw7UX7I9P?amp=1) and resulting ***landmark*** [Manuscript](https://arxiv.org/abs/1506.02142) and [Appendix](https://arxiv.org/abs/1506.02157)
-        4. Concerns regarding MC-Dropout [from Ian Osband ([1](https://mobile.twitter.com/ianosband/status/1014466510885216256?lang=en), [2](https://www.reddit.com/r/MachineLearning/comments/8w0v9m/d_ian_osband_dropout_posteriors_give_bad/), [3](https://www.reddit.com/r/MachineLearning/comments/emt4ke/discussion_research_variational_bayesian/), [4](http://bayesiandeeplearning.org/2016/papers/BDL_4.pdf)) and [HMG2018](https://arxiv.org/abs/1807.01969)]
-        5. [Dropout isn't Bayesian](https://discourse.pymc.io/t/frequency-of-missing-value-imputation/8809) (and MCMC using "Metropolis within Gibbs", Hamiltonian MC, etc.)
+        3. Concerns regarding MC-Dropout [from Ian Osband ([1](https://mobile.twitter.com/ianosband/status/1014466510885216256?lang=en), [2](https://www.reddit.com/r/MachineLearning/comments/8w0v9m/d_ian_osband_dropout_posteriors_give_bad/), [3](https://www.reddit.com/r/MachineLearning/comments/emt4ke/discussion_research_variational_bayesian/), [4](http://bayesiandeeplearning.org/2016/papers/BDL_4.pdf)) and [HMG2018](https://arxiv.org/abs/1807.01969)]
+        4. [Dropout isn't Bayesian](https://discourse.pymc.io/t/frequency-of-missing-value-imputation/8809) (and MCMC using "Metropolis within Gibbs", Hamiltonian MC, etc.)
     4. [The GP4ML Textbook](http://gaussianprocess.org/gpml/) 
      
         > Hopefully the preceeding materials have been sufficient and this is just a reference at this point.
