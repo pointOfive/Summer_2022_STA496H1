@@ -32,7 +32,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
    1. [Introduction to VI in TensorFlow](files/DenseVariational.ipynb) (based on [this TensorFlow "article"](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html))
 
-   2. [Bayesian Neural Networks (BNN) / Bayes by Backprop (BNN)](files/BayesByBackprop.ipynb) relative to Bayesian (posterior) analysis and Markov chain Monte Carlo (MCMC) with PyMC3
+   2. [Bayesian Neural Networks (BNN) / Bayes by Backprop (BBB)](files/BayesByBackprop.ipynb) relative to Bayesian (posterior) analysis and Markov chain Monte Carlo (MCMC) with PyMC3
       - Landmark paper: [Weight Uncertainty in Neural Networks](https://arxiv.org/abs/1505.05424) (and perhaps see also [The Local Reparameterization Trick](https://arxiv.org/abs/1506.02557))
     
    3. Review Paper: [Variational Inference: A Review for Statisticians](https://arxiv.org/abs/1601.00670) 
@@ -47,11 +47,18 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
         > and other open source resources, e.g., for [MNIST](https://danijar.com/building-variational-auto-encoders-in-tensorflow/)
         > and [Fashion MNIST](https://learnopencv.com/variational-autoencoder-in-tensorflow/)
 
-3. [The Gaussian Process (GP)](files/GaussianProcesses.ipynb) and [MC-Dropout as Bayes](files/DropoutBayes.ipynb), including
-     1. Dropout is not VI Bayes [[HMG2017](https://arxiv.org/abs/1711.02989) rejects [KSW2015](https://arxiv.org/abs/1506.02557)]
-     2. MC-Dropout can approximate GP Bayes [Tour de force [Thesis](https://t.co/YXw7UX7I9P?amp=1) and resulting Landmark [Manuscript](https://arxiv.org/abs/1506.02142) and [Appendix](https://arxiv.org/abs/1506.02157)]
-     3. Concerns regarding MC-Dropout [from Ian Osband ([1](https://mobile.twitter.com/ianosband/status/1014466510885216256?lang=en), [2](https://www.reddit.com/r/MachineLearning/comments/8w0v9m/d_ian_osband_dropout_posteriors_give_bad/), [3](https://www.reddit.com/r/MachineLearning/comments/emt4ke/discussion_research_variational_bayesian/), [4](http://bayesiandeeplearning.org/2016/papers/BDL_4.pdf)) and [HMG2018](https://arxiv.org/abs/1807.01969)]
-     4. [Dropout isn't Bayesian](https://discourse.pymc.io/t/frequency-of-missing-value-imputation/8809) (and MCMC with Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC)
+3. Gaussian Processes ([Introductory Lecture](https://www.youtube.com/watch?v=4vGiHC35j9s))
+    1. [The Gaussian Process (GP)](files/GaussianProcesses.ipynb) and Stochastic Processes 
+    3. [MC-Dropout Approximates a GP](files/DropoutBayes.ipynb), including
+        1. Dropout is not VI Bayes [[HMG2017](https://arxiv.org/abs/1711.02989) rejects [KSW2015](https://arxiv.org/abs/1506.02557)]
+        2. MC-Dropout is Bayes (when it approximates a posterior which is a GP)
+        
+           > From the ***tour de force*** [Thesis](https://t.co/YXw7UX7I9P?amp=1) and resulting ***landmark*** [Manuscript](https://arxiv.org/abs/1506.02142) and [Appendix](https://arxiv.org/abs/1506.02157)
+        4. Concerns regarding MC-Dropout [from Ian Osband ([1](https://mobile.twitter.com/ianosband/status/1014466510885216256?lang=en), [2](https://www.reddit.com/r/MachineLearning/comments/8w0v9m/d_ian_osband_dropout_posteriors_give_bad/), [3](https://www.reddit.com/r/MachineLearning/comments/emt4ke/discussion_research_variational_bayesian/), [4](http://bayesiandeeplearning.org/2016/papers/BDL_4.pdf)) and [HMG2018](https://arxiv.org/abs/1807.01969)]
+        5. [Dropout isn't Bayesian](https://discourse.pymc.io/t/frequency-of-missing-value-imputation/8809) (and MCMC with Metropolis-Hastings, Gibbs Sampling, and Hamiltonian MC)
+    4. [The GP4ML Textbook](http://gaussianprocess.org/gpml/) 
+     
+        > Hopefully the preceeding materials have been sufficient and this is just a reference at this point.
 
 4. Normalizing Flows (NF)
     1. MADE autoregressive structure
