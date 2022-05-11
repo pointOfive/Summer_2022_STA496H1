@@ -73,11 +73,11 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
    And we've also seen more traditional Bayesian analysis with MCMC using PyMC.<br>
    Can we add something to the Bayesian Deep Learning (BDL) domain?</details>
 
-4. Normalizing Flows (NF)
-    1. MADE autoregressive structure
-        - conditional parameter outputs and the chain rule
-    2. MAF and IAF and RealNVP
-    3. Hamiltonian NF
+4. [Normalizing Flows (NF)](files/NormalizingFlows.ipynb), covering:
+    1. Change of Variables, Jacobians, Determinants, and Eigenthings
+    2. Computation versus Transformation Tradeoff Motivating NF
+    3. MADE autoregressive structure, conditional parameter outputs, and the chain rule
+    4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
 
 5. [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) / [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) / [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) / [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723) / Etc.
     - where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
