@@ -41,8 +41,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 <details><summary>[Click] Recording from Thursday, May 12, 10:00AM-12:15PM meeting.</summary> <br>
 <a href=https://utoronto.zoom.us/rec/share/rERCzi2oDfhvi6UfqWpcpwu_z_whv_vmLbH5A1lilvXC0OPydRbWK56MqTmvsvu7.sAnPk0ZsRVRudHEY">recording</a> (+Cg2&AgvP6)</details>
 
-
-1. [Introduction to VI in TensorFlow](files/DenseVariational.ipynb) (based on [this TensorFlow "article"](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html))
+   1. [Introduction to VI in TensorFlow](files/DenseVariational.ipynb) (based on [this TensorFlow "article"](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html))
 
    2. [Bayesian Neural Networks (BNN) / Bayes by Backprop (BBB)](files/BayesByBackprop.ipynb) relative to Bayesian (posterior) analysis and Markov chain Monte Carlo (MCMC) with PyMC3
       - Landmark paper: [Weight Uncertainty in Neural Networks](https://arxiv.org/abs/1505.05424) (and perhaps see also [The Local Reparameterization Trick](https://arxiv.org/abs/1506.02557))
