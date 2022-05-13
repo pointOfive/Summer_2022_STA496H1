@@ -25,7 +25,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 0. Importance Sampling (IS) [(Givens/Hoeting Chapter 6.4.1)](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
    - [Some initial orienting questions and partial responses for your review](files/BayesImportanceSampling.ipynb)
 
-      <details><summary>[Click] Scott's summary of the 4PM conversation on Monday, May 9.</summary> <br>
+      <details><summary>Scott's summary of the 4PM conversation on Monday, May 9.</summary> <br>
       The second half of the meeting was <a href="https://utoronto.zoom.us/rec/share/KiJbYUB1mhXAXn27CzDCbxLfhb-7vWHJlToWB5bkyQd4WdHOHCAZKcAKyakvLnop.d3mAcWux8Evw8Cuy">recorded</a> (and has passcode Sc#1wsPr9#).<br><br>
       In the first half of the meeting Ryan addressed the final question of the notebook regarding distribution quantile estimation and we discussed empirical CDFs and Gentle's view on rank order statistics as the fundamental information contained in a data sample. Thanks to Haining's considerations of what it would mean to integrate an inverse quantile function it became clear to me that quantile estimation cannot be formulated as an integration problem, and so quantile estimation (i.e., analyzing rank order statistics) is something different from MC-integration (which seems quite interesting, but I think for now we'll have to put a pin this topic for a later time).<br><br>
       I do not believe the middle two questions addressed in the notebook (regarding helpful attributes of proposal distributions and the computational distinction between unnormalized and normalized importance weights) were systematically address in our question, but they were each tangentially touched upon to some degree. I.e., respectively, see (b) below, and note that normalized IS weights do not require a (generally very hard) marginal likelihood computation to find the normalizing constant of the posterior, but instead can just be based upon normalized likelihood computations as weights.<br><br>
@@ -36,7 +36,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 1. Empirical Bayes (EB) ([Introduction and Commentary from Haining Tan](files/Empirical_Bayes.pdf))
    - OPEN QUESTION: what impact (if any) do Empirical Bayes piror specifications have on estimation based on importance sampling?
 
-2. Variational Inference (VI) [(Schwartz STA410 3.0.2)](https://colab.research.google.com/drive/1bFm8kKsFjsVITAScCQeSh2Tn59uk9yGr#cell-opt-VI) <details><summary>[Click] To make the link above work...</summary> Remove the (annoyingly) appended "=" at the end of the address and you'll link directly to the intended section</details> <details><summary>[Click] Recording of the 10:00AM-12:15PM conversation on Thursday, May 12.</summary><a href=https://utoronto.zoom.us/rec/share/rERCzi2oDfhvi6UfqWpcpwu_z_whv_vmLbH5A1lilvXC0OPydRbWK56MqTmvsvu7.sAnPk0ZsRVRudHEY">recording</a> (+Cg2&AgvP6)</details>
+2. Variational Inference (VI) [(Schwartz STA410 3.0.2)](https://colab.research.google.com/drive/1bFm8kKsFjsVITAScCQeSh2Tn59uk9yGr#cell-opt-VI) <details><summary>To make the link above work...</summary> Remove the (annoyingly) appended "=" at the end of the address and you'll link directly to the intended section</details> <details><summary>[Click] Recording of the 10:00AM-12:15PM conversation on Thursday, May 12.</summary><a href="https://utoronto.zoom.us/rec/share/rERCzi2oDfhvi6UfqWpcpwu_z_whv_vmLbH5A1lilvXC0OPydRbWK56MqTmvsvu7.sAnPk0ZsRVRudHEY">recording</a> (+Cg2&AgvP6)</details>
 
    1. [Introduction to VI in TensorFlow](files/DenseVariational.ipynb) (based on [this TensorFlow "article"](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html))
 
@@ -68,7 +68,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
      
         > Hopefully the preceeding materials have been sufficient and this is just a reference at this point.
 
-    <details><summary>[Click] At this stage...</summary> 
+    <details><summary>At this stage...</summary> 
    We've seen BNN/BBB and MC-Dropout as characterizing uncertainty in the NN context.<br>
    And we've also seen more traditional Bayesian analysis with MCMC using PyMC.<br>
    Can we add something to the Bayesian Deep Learning (BDL) domain?</details>
@@ -79,5 +79,10 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     3. MADE autoregressive structure, conditional parameter outputs, and the chain rule
     4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
 
-5. [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) / [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) / [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) / [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723) / Etc.
+5. Parallelize 
+   ![](https://media.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.gif)
+   
+   <details><summary>Our powers combinded</summary><img src="https://media.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.gif"></details>
+      
+   ("") Haining [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) / [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) / [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) / [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723) / Etc.
     - where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
