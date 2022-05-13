@@ -1,0 +1,112 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Discover &amp; share this Together GIF with everyone you know. GIPHY is how you search, share, discover, and create GIFs.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+        <meta property="fb:app_id" content="406655189415060">
+    <meta property="og:site_name" content="GIPHY">
+    <meta property="og:url" content="https://i.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy-downsized-large.gif">
+    <meta property="og:title" content="Captain Planet Combine GIF - Find &amp; Share on GIPHY">
+    <meta property="og:description" content="Discover &amp; share this Together GIF with everyone you know. GIPHY is how you search, share, discover, and create GIFs.">
+
+    
+
+    
+    <meta property="og:type" content="video.other">
+    <meta property="og:image" content="https://i.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy-downsized-large.gif">
+    <meta property="og:image:type" content="image/gif">
+    <meta property="og:image:width" content="480">
+    <meta property="og:image:height" content="360">
+    
+    
+    <meta property="og:video" content="https://i.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.mp4">
+    <meta property="og:video:url" content="https://i.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.mp4">
+    <meta property="og:video:secure_url" content="https://i.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.mp4">
+    <meta property="og:video:type" content="video/mp4">
+    <meta property="og:video:width" content="480">
+    <meta property="og:video:height" content="360">
+    
+
+    <meta name="twitter:account_id" content="1020383864" />
+    <meta name="twitter:card" content="player">
+    <meta name="twitter:title" content="Captain Planet Combine GIF - Find &amp; Share on GIPHY">
+    <meta name="twitter:creator" content="damog7">
+    <meta name="twitter:site" content="@giphy">
+    <meta name="twitter:description" content="Discover &amp; share this Together GIF with everyone you know. GIPHY is how you search, share, discover, and create GIFs.">
+    
+    <meta name="twitter:image:src" content="https://i.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy_s.gif">
+    <meta name="twitter:image" content="https://i.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy_s.gif">
+    
+    <meta name="twitter:domain" content="giphy.com">
+
+    
+    <meta name="twitter:player" content="https://giphy.com/embed/kQYNaEa35hQ6pCYywH/twitter/iframe">
+    <meta name="twitter:player:width" content="435">
+    <meta name="twitter:player:height" content="326">
+    
+
+    
+    <meta name="rating" content="general">
+    <meta name="image:rating" content="g">
+    
+
+    <!-- /twitter seo -->
+
+    <meta name="description" content="Discover &amp; share this Together GIF with everyone you know. GIPHY is how you search, share, discover, and create GIFs."/>
+    <meta name="author" content="GIPHY"/>
+    <meta name="keywords" content="together, combine, captain planet, combination, planeteers, join forces, letourpowerscombine, GIF, Animated GIF">
+    <meta name="pinterest" content="nohover">
+
+    
+    <link rel="alternate" type="application/json+oembed" href="https://giphy.com/services/oembed?url=https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.gif" title="Captain Planet Combine GIF - Find &amp; Share on GIPHY oEmbed Lookup" />
+    
+    <title>Captain Planet Combine GIF - Find &amp; Share on GIPHY</title>
+  </head>
+  <body style="background-color:#121212">
+    <article class="media">
+        
+        <img src="https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200w_s.gif" alt=""
+            style="position:absolute;left:50%;top:50%;width:480px;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);transform:translate(-50%,-50%);" />
+        
+    </article>
+
+    <!--DIDOMI-->
+    <script type="text/javascript">window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+      else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+      var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+      if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e){
+        var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("8878f527-7872-49a5-abd4-f6b2e56cb64a")})();</script>          <!-- END DIDOMI -->
+
+    <!-- Google Analytics -->
+    <script type="didomi/javascript" data-vendor="c:googleana-jHcphUGX">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38174542-34', 'auto');
+    ga('require', 'GTM-WXRB58X');
+    
+    ga('send', 'pageview');
+    </script>
+    <!-- End Google Analytics -->
+    <script src="/static/dist/runtime.6d618e8c.bundle.js"></script>
+    <script src="/static/dist/mediaLanding.bfc9b065.bundle.js"></script>
+    <script>
+        var Giphy = Giphy || {};
+        if (Giphy.renderMediaLanding) {
+            Giphy.renderMediaLanding(document.querySelector('.media'), {
+                gif: {"id": "kQYNaEa35hQ6pCYywH", "title": "Captain Planet Combine GIF", "images": {"looping": {"mp4": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy-loop.mp4", "mp4_size": 1789953}, "source": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/source.mov", "width": 640, "height": 480, "size": 2465455}, "downsized": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy-downsized.gif", "width": 384, "height": 288, "size": 1709844}, "downsized_large": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy-downsized-large.gif", "width": 480, "height": 360, "size": 4408345}, "downsized_medium": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy-downsized-medium.gif", "width": 480, "height": 360, "size": 3924526}, "downsized_small": {"width": 152, "height": 114, "mp4": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy-downsized-small.mp4", "mp4_size": 187875}, "downsized_still": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy-downsized_s.gif", "width": 384, "height": 288, "size": 32416}, "fixed_height": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200.gif", "width": 267, "height": 200, "size": 3208257, "mp4": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200.mp4", "mp4_size": 740330, "webp": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200.webp", "webp_size": 1264354}, "fixed_height_downsampled": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200_d.gif", "width": 267, "height": 200, "size": 123840, "webp": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200_d.webp", "webp_size": 77416}, "fixed_height_small": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/100.gif", "width": 134, "height": 100, "size": 965417, "mp4": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/100.mp4", "mp4_size": 298078, "webp": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/100.webp", "webp_size": 551126}, "fixed_height_small_still": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/100_s.gif", "width": 134, "height": 100, "size": 7135}, "fixed_height_still": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200_s.gif", "width": 267, "height": 200, "size": 20923}, "fixed_width": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200w.gif", "width": 200, "height": 150, "size": 2089688, "mp4": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200w.mp4", "mp4_size": 517394, "webp": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200w.webp", "webp_size": 902626}, "fixed_width_downsampled": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200w_d.gif", "width": 200, "height": 150, "size": 74952, "webp": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200w_d.webp", "webp_size": 48268}, "fixed_width_small": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/100w.gif", "width": 100, "height": 75, "size": 595575, "mp4": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/100w.mp4", "mp4_size": 43942, "webp": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/100w.webp", "webp_size": 373270}, "fixed_width_small_still": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/100w_s.gif", "width": 100, "height": 75, "size": 4623}, "fixed_width_still": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/200w_s.gif", "width": 200, "height": 150, "size": 14574}, "original": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.gif", "width": 480, "height": 360, "size": 11504166, "frames": 185, "hash": "04f3be1caf7634e382a8040df4aa5e77", "mp4": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.mp4", "mp4_size": 1504772, "webp": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.webp", "webp_size": 2148974}, "original_mp4": {"width": 480, "height": 360, "mp4": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.mp4", "mp4_size": 1504772}, "original_still": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy_s.gif", "width": 480, "height": 360, "size": 72546}, "preview": {"width": 282, "height": 212, "mp4": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy-preview.mp4", "mp4_size": 44820}, "preview_gif": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy-preview.gif", "width": 96, "height": 72, "size": 48323}, "preview_webp": {"url": "https://media2.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy-preview.webp", "width": 126, "height": 94, "size": 29772}}, "is_video": false, "tags": ["together", "combine", "captain planet", "combination", "planeteers", "join forces", "letourpowerscombine"], "cta": {"text": "", "link": ""}, "featured_tags": [], "embed_url": "https://giphy.com/embed/kQYNaEa35hQ6pCYywH", "relative_url": "/gifs/captain-planet-planeteers-letourpowerscombine-kQYNaEa35hQ6pCYywH", "type": "gif", "index_id": 122818606, "slug": "captain-planet-planeteers-letourpowerscombine-kQYNaEa35hQ6pCYywH", "url": "https://giphy.com/gifs/captain-planet-planeteers-letourpowerscombine-kQYNaEa35hQ6pCYywH", "short_url": "https://gph.is/g/Zk8eYdy", "bitly_url": "https://gph.is/g/Zk8eYdy", "username": "DamienGlynn", "rating": "g", "source_image_url": "/tmp/akka-http-upload5643311693304216397.tmp.mov", "source_post_url": "https://www.youtube.com/watch?v=mmbuD0IEvuA", "source_content_url": "", "source_tld": "www.youtube.com", "source_domain": "https://www.youtube.com", "source_caption": "", "source_body": "", "has_attribution": false, "is_hidden": false, "is_removed": false, "is_community": true, "is_anonymous": false, "is_featured": false, "is_realtime": false, "is_indexable": false, "is_sticker": false, "is_preserve_size": false, "is_trending": false, "gps_no_trend": false, "create_datetime": "2021-07-08T22:17:47+0000", "update_datetime": "2021-07-08T22:36:47+0000", "trending_datetime": null, "external_media": null, "import_type": null, "user": {"id": 36733134, "username": "DamienGlynn", "avatar_url": "https://media.giphy.com/avatars/Damglynn/2Huw8z5YAIts.png", "display_name": "Damien G", "user_type": "user", "twitter": "damog7", "is_public": true, "is_verified": false, "is_freelance": false, "is_community": true, "suppress_chrome": false, "website_url": "https://www.instagram.com/damglynn", "twitter_url": "https://twitter.com/damog7", "facebook_url": null, "instagram_url": "https://instagram.com/damglynn", "tumblr_url": null, "tiktok_url": null, "youtube_url": null, "attribution_display_name": "Damien G", "disable_freelance_popup": false, "name": "Damien G", "about_bio": "Irish gif artist.\r\n\r\nContact: damienglynn1@gmail.com", "description": "Irish gif artist.\r\n\r\nContact: damienglynn1@gmail.com", "profile_url": "/damienglynn", "profile_path": "/damienglynn", "website_display_url": "www.instagram.com"}},
+                giphyUrl: 'https://giphy.com/',
+                renditionFilename: 'giphy.gif',
+                trackingQueryString: 'utm_source=media-link&utm_medium=landing&utm_campaign=Media%20Links&utm_term=https://giphy.com/'
+            });
+        }
+    </script>
+  </body>
+</html>
