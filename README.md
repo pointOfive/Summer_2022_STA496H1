@@ -79,10 +79,9 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     3. MADE autoregressive structure, conditional parameter outputs, and the chain rule
     4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
 
-5. Parallelize 
+   <details><summary>Are we leaving TF for PyTorch?</summary><img src="files/images/therewillBB.gif"></details>
 
-![](http://i.imgur.com/60bts.gif)
-   ![](files/images/capn.gif)
+5. Parallelize 
    
    <details><summary>Our powers combinded</summary><img src="files/images/capn.gif"></details>
       
