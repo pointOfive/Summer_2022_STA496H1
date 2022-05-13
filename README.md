@@ -78,12 +78,16 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     2. Computation versus Transformation Tradeoff Motivating NF
     3. MADE autoregressive structure, conditional parameter outputs, and the chain rule
     4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
-
+   <br><br>
    <details><summary>Are we leaving TF for PyTorch?</summary><img src="files/images/therewillBB.gif"></details>
 
 5. Parallelize 
    
    <details><summary>Our powers combinded</summary><img src="files/images/capn.gif"></details>
       
-   ("") Haining [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) / [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) / [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) / [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723) / Etc.
-    - where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
+   - Haining [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) 
+   - Ryan [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) 
+   - Eric [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics)
+   - Yichen: Neural MCMC
+   - Scott [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723)
+   - Etc., where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
