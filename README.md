@@ -80,6 +80,8 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
 
 5. Parallelize 
+
+![](http://i.imgur.com/60bts.gif)
    ![](files/images/capn.gif)
    
    <details><summary>Our powers combinded</summary><img src="files/images/capn.gif"></details>
