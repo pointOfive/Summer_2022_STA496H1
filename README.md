@@ -80,9 +80,9 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
 
 5. Parallelize 
-   ![](https://media.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.gif)
+   ![](files/images/capn.gif)
    
-   <details><summary>Our powers combinded</summary><img src="https://media.giphy.com/media/kQYNaEa35hQ6pCYywH/giphy.gif"></details>
+   <details><summary>Our powers combinded</summary><img src="files/images/capn.gif"></details>
       
    ("") Haining [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) / [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) / [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) / [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723) / Etc.
     - where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
