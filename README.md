@@ -92,10 +92,11 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
           - JML = E_{μX (x)Pb (x→z)} [− log w(x → z)] = KL (μX (x)Pb(x → z)||μZ (z)Pf (z → x)) + constant
           - KL (pX (x) ‖ μX (x)) ≤ KL (μZ (z)Pf (z → x) ‖ μX (x)Pb(x → z)) 
       - Langevin dynamics 
-          - "t" in this section is different than "t" in othe other parts of the of paper
-          - haven't looked at this closely yet, but maybe this [wiki article](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) would help?
+          - Is "t" in this section is different than "t" in other parts of the of paper?
+          - I haven't looked at this closely yet, but maybe this [wiki article](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) would help?
       - [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing): what is the basis idea and how does this manifest in the SNF architecture?
       - Neural MCMC: you will need to see what this is through the references
-
+          - Is "t" in the MCMC subsection is different than "t" in other parts of the of paper?
+          - How does (log) path probability in the MCMC subsection (Langevin dynamics subsections) fit into things?
    - Etc., where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
       - [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723)  
