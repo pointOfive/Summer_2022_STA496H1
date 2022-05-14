@@ -94,8 +94,8 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
       - Langevin dynamics 
           - "t" in this section is different than "t" in othe other parts of the of paper
           - haven't looked at this closely yet, but maybe this [wiki article](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) would help?
-      - [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
-      - Neural MCMC
+      - [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing): what is the basis idea and how does this manifest in the SNF architecture?
+      - Neural MCMC: you will need to see what this is through the references
 
    - Etc., where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
       - [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723)  
