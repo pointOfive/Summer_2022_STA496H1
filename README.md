@@ -100,7 +100,8 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
         Is "t" in the MCMC subsection is different than "t" in other parts of the of paper?<br><br>
         How does (log) path probability in the MCMC subsection (Langevin dynamics subsections) fit into things?<br><br>
         Is the basic idea just to LD + MCMC perturb intermittently between flows to create the noise bypasses topological constraints?<br><br>
-        If the prior is the base distribution and SNF fit on data is interpreted as "transforming the prior into the posterior", then repeated stochastic realizations of the SNF are samples with importance weights which are the ratio of the SNF "output distirubtion" relative to the base distribution, so repeated stochastic realizations are importance weighted representations of the postrior.  How are realizations created and stored?  How are uncertainty characterizations presented?<br>
+        If the prior is the base distribution and SNF fit on data is interpreted as "transforming the prior into the posterior", then repeated stochastic realizations of the SNF are samples with importance weights which are the ratio of the SNF "output distirubtion" relative to the base distribution, so repeated stochastic realizations are importance weighted representations of the postrior.  How are realizations created and stored?  How are uncertainty characterizations presented?<br><br>
+        On page 7 the paper says: "Note that neural spline flows perform better than RealNVP without reweighting, but significantly worse with reweighting - presumably because the sharper features representable by splines can be detrimental for reweighting weights."  I think this is saying that the NSF is not sufficiently heavy tailed to be a good importance sampling proposal. What do you think?
         </details>
 
    - Etc., where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
