@@ -91,7 +91,9 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
           - KL = E_{μZ (z)Pf (z→x)} [− log w(z → x)] = KL (μZ (z)Pf (z → x)||μX (x)Pb(x → z)) + constant
           - JML = E_{μX (x)Pb (x→z)} [− log w(x → z)] = KL (μX (x)Pb(x → z)||μZ (z)Pf (z → x)) + constant
           - KL (pX (x) ‖ μX (x)) ≤ KL (μZ (z)Pf (z → x) ‖ μX (x)Pb(x → z)) 
-      - [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics)
+      - Langevin dynamics 
+          - "t" in this section is different than "t" in othe other parts of the of paper
+          - haven't looked at this closely yet, but maybe this [wiki article](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) would help?
       - [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
       - Neural MCMC
 
