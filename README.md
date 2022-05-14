@@ -93,8 +93,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
         JML = E_{μX (x)Pb (x→z)} [− log w(x → z)] = KL (μX (x)Pb(x → z)||μZ (z)Pf (z → x)) + constant<br>
         KL (pX (x) ‖ μX (x)) ≤ KL (μZ (z)Pf (z → x) ‖ μX (x)Pb(x → z))<br> 
         </details>
-      - [Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) 
-          - Is "t" in this section is different than "t" in other parts of the of paper?
+      - [Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics): is "t" in this section is different than "t" in other parts of the of paper?
       - [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing): what is the basis idea and how does this manifest in the SNF architecture?
       - Neural MCMC: you will need to see what this is through the references
         <details><summary>Questions</summary>
