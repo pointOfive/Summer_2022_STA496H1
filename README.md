@@ -85,9 +85,15 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
    
    <details><summary>Our powers combinded</summary><img src="files/images/capn.gif"></details>
       
-   - Haining [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) 
-   - Ryan [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) 
-   - Eric [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics)
-   - Yichen: Neural MCMC
-   - Scott [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723)
+   - Haining/Eric will create a presentation of [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) 
+   - Ryan/Yichen will create a presentation on [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) which will include general introducions the following general topics and then explain their specific applications in the manuscript
+      - Optimizing NF and SNF
+          - KL = E_{μZ (z)Pf (z→x)} [− log w(z → x)] = KL (μZ (z)Pf (z → x)||μX (x)Pb(x → z)) + constant
+          - JML = E_{μX (x)Pb (x→z)} [− log w(x → z)] = KL (μX (x)Pb(x → z)||μZ (z)Pf (z → x)) + constant
+          - KL (pX (x) ‖ μX (x)) ≤ KL (μZ (z)Pf (z → x) ‖ μX (x)Pb(x → z)) 
+      - [Stochastic gradient Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics)
+      - [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing)
+      - Neural MCMC
+
    - Etc., where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
+      - [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723)  
