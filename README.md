@@ -94,7 +94,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
         KL (pX (x) ‖ μX (x)) ≤ KL (μZ (z)Pf (z → x) ‖ μX (x)Pb(x → z))<br> 
         </details>
       - [Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics): is "t" in this section is different than "t" in other parts of the of paper?
-      - [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing): what is the basis idea and how does this manifest in the SNF architecture?
+      - [Simulated annealing](https://en.wikipedia.org/wiki/Simulated_annealing): what is the basis idea and how does this manifest in the SNF architecture?
       - Neural MCMC: you will need to see what this is through the references
         <details><summary>Questions</summary><br>
         Is "t" in the MCMC subsection is different than "t" in other parts of the of paper?<br><br>
