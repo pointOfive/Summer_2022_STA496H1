@@ -96,10 +96,10 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
       - [Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics): is "t" in this section is different than "t" in other parts of the of paper?
       - [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing): what is the basis idea and how does this manifest in the SNF architecture?
       - Neural MCMC: you will need to see what this is through the references
-        <details><summary>Questions</summary>
-        Is "t" in the MCMC subsection is different than "t" in other parts of the of paper?<br>
-        How does (log) path probability in the MCMC subsection (Langevin dynamics subsections) fit into things?<br>
-        Is the basic idea just to LD + MCMC perturb intermittently between flows to create the noise bypasses topological constraints?<br>
+        <details><summary>Questions</summary><br>
+        Is "t" in the MCMC subsection is different than "t" in other parts of the of paper?<br><br>
+        How does (log) path probability in the MCMC subsection (Langevin dynamics subsections) fit into things?<br><br>
+        Is the basic idea just to LD + MCMC perturb intermittently between flows to create the noise bypasses topological constraints?<br><br>
         If the prior is the base distribution and SNF fit on data is interpreted as "transforming the prior into the posterior", then repeated stochastic realizations of the SNF are samples with importance weights which are the ratio of the SNF "output distirubtion" relative to the base distribution, so repeated stochastic realizations are importance weighted representations of the postrior.  How are realizations created and stored?  How are uncertainty characterizations presented?<br>
         </details>
 
