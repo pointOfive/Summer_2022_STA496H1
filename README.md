@@ -86,20 +86,23 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
    <details><summary>Our powers combinded</summary><img src="files/images/capn.gif"></details>
       
    - Haining/Eric will create a presentation of [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) 
-   - Ryan/Yichen will create a presentation on [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) which will include general introducions the following general topics and then explain their specific applications in the manuscript
+   - Ryan/Yichen will create a presentation on [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) which will include general introducions the following general topics and then explain their specific applications in the manuscript.
       - Optimizing NF and SNF
-          - KL = E_{μZ (z)Pf (z→x)} [− log w(z → x)] = KL (μZ (z)Pf (z → x)||μX (x)Pb(x → z)) + constant
-          - JML = E_{μX (x)Pb (x→z)} [− log w(x → z)] = KL (μX (x)Pb(x → z)||μZ (z)Pf (z → x)) + constant
-          - KL (pX (x) ‖ μX (x)) ≤ KL (μZ (z)Pf (z → x) ‖ μX (x)Pb(x → z)) 
-      - Langevin dynamics 
+        <details><summary>Concepts</summary>
+        JKL = E_{μZ (z)Pf (z→x)} [− log w(z → x)] = KL (μZ (z)Pf (z → x)||μX (x)Pb(x → z)) + constant<br>
+        JML = E_{μX (x)Pb (x→z)} [− log w(x → z)] = KL (μX (x)Pb(x → z)||μZ (z)Pf (z → x)) + constant<br>
+        KL (pX (x) ‖ μX (x)) ≤ KL (μZ (z)Pf (z → x) ‖ μX (x)Pb(x → z))<br> 
+        </details>
+      - [Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) 
           - Is "t" in this section is different than "t" in other parts of the of paper?
-          - I haven't looked at this closely yet, but maybe this [wiki article](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics) would help?
       - [Simulated Annealing](https://en.wikipedia.org/wiki/Simulated_annealing): what is the basis idea and how does this manifest in the SNF architecture?
       - Neural MCMC: you will need to see what this is through the references
-      - Questions
-          - Is "t" in the MCMC subsection is different than "t" in other parts of the of paper?
-          - How does (log) path probability in the MCMC subsection (Langevin dynamics subsections) fit into things?
-          - Is the basic idea just to LD + MCMC perturb intermittently between flows to create the noise bypasses topological constraints?
-          - If the prior is the base distribution and SNF fit on data is interpreted as "transforming the prior into the posterior", then repeated stochastic realizations of the SNF are samples with importance weights which are the ratio of the SNF "output distirubtion" relative to the base distribution, so repeated stochastic realizations are importance weighted representations of the postrior.  How are realizations created and stored?  How are uncertainty characterizations presented?
+        <details><summary>Questions</summary>
+        Is "t" in the MCMC subsection is different than "t" in other parts of the of paper?<br>
+        How does (log) path probability in the MCMC subsection (Langevin dynamics subsections) fit into things?<br>
+        Is the basic idea just to LD + MCMC perturb intermittently between flows to create the noise bypasses topological constraints?<br>
+        If the prior is the base distribution and SNF fit on data is interpreted as "transforming the prior into the posterior", then repeated stochastic realizations of the SNF are samples with importance weights which are the ratio of the SNF "output distirubtion" relative to the base distribution, so repeated stochastic realizations are importance weighted representations of the postrior.  How are realizations created and stored?  How are uncertainty characterizations presented?<br>
+        </details>
+
    - Etc., where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
       - [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723)  
