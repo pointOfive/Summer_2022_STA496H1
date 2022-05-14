@@ -86,7 +86,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
    <details><summary>Our powers combinded</summary><img src="files/images/capn.gif"></details>
       
    - Haining/Eric will create a presentation of the [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) manuscript including all of it's introductory and contextual material.
-      - It seems the SGLD citation [59] may be a key reference
+      - It seems the SGLD citation [59] may be a key reference (highlighted also in manuscript footnote 3)
       - References [45] and [39] appear of possible interest
       - Fun fact: ["Neal [49]"](https://www.cs.toronto.edu/~radford/homepage.html)
    - Ryan/Yichen will create a presentation on [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) which will include general introducions the following general topics and then explain their specific applications in the manuscript.
