@@ -20,7 +20,7 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
 
 Students must have experience working in TensorFlow (or PyTorch, etc.) as evidenced by course or portfolio work.  Students must have a solid understanding of Bayesian Analysis and familiarity with applied computation, i.e., as should generally be the case for students who have taken the appropriate advanced coursework.  Strong interest in Bayesian, neural network, and computational methodology is of course preferred. And enthusiasm for and comfort with working through challenging problems in new areas is of course very beneficial for research work.
 
-# Roadmap
+# Setup
 
 0. Importance Sampling (IS) [(Givens/Hoeting Chapter 6.4.1)](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
    - [Some initial orienting questions and partial responses for your review](files/BayesImportanceSampling.ipynb)
@@ -109,3 +109,23 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
    - Etc., where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
       - [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723)  
+
+# Roadmap
+
+| Week of | Days | Topics | Deliverable | Target | 
+|-|-|-|-|-|
+|May 9| 4 | IS, EB, VI, BBB | | |
+|May 16| 4 | GP, MC-Dropout, NF | | |
+|May 23| 4 | SWAG, SNF | Slides Presentation I: IS through NF | May 26 | 
+|May 30| 4 | SWAG, SNF | Slides Presentation II: SWAG and SNF | June 2 |
+|June 6| 4 | Coding / Writing | Outline Planned Paper | June 9 |
+|June 13| 3 | Coding / Writing | Finalize Analysis Examples | June 16 |
+|June 20| 3 | Coding / Writing | Draft Manuscript Version I | June 23 |
+|June 27| 3 | Coding / Writing | Draft Manuscript Version II | June 30 |
+|July 4| 3 | | Final Manuscript Submission | ASAP |
+|July 11| 3 | | final poster or slides presentation | TBA |
+
+| Deadline | Event | Special Note | Dates |
+|-|-|-|-|
+| *Will ask Radu about poster crash | ISBA, Montreal | First time ever hosted in Canada | June 26 - July 1 |
+| Paper May 16/19 Poster October 12 | NeurIPS, New Orleans | Bayesian Deep Learning Workshop | Nov 28 - Dec 9 | 
