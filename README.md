@@ -79,7 +79,6 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     3. MADE autoregressive structure, conditional parameter outputs, and the chain rule
     4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
    <br><br>
-   <details><summary>Are we leaving TF for PyTorch?</summary><img src="files/images/therewillBB.gif"></details>
 
 5. Parallelize 
    
@@ -89,6 +88,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
       - It seems the SGLD citation [59] may be a key reference (highlighted also in manuscript footnote 3)
       - References [45] and [39] appear of possible interest
       - Fun fact: ["Neal [49]"](https://www.cs.toronto.edu/~radford/homepage.html)
+      - Etc., where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
    - Ryan/Yichen will create a presentation on [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) which will include general introducions the following general topics and then explain their specific applications in the manuscript.
       - Optimizing NF and SNF
         <details><summary>Concepts</summary>
@@ -107,8 +107,14 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
         On page 7 the paper says: "Note that neural spline flows perform better than RealNVP without reweighting, but significantly worse with reweighting - presumably because the sharper features representable by splines can be detrimental for reweighting weights."  I think this is saying that the NSF is not sufficiently heavy tailed to be a good importance sampling proposal. What do you think?
         </details>
 
-   - Etc., where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
-      - [Hamiltonian Flows?](https://arxiv.org/abs/2203.05723)  
+5. Optional Foundations Material 
+
+   <details><summary>Are we leaving TF for PyTorch?</summary><img src="files/images/therewillBB.gif"></details>
+
+   1. Graph construction using "symbol-to-number" (Torch/Caffe) versus "extended graph" derivative representations (Theano/TensorFlow) is discussed in [Chapter 6.5.5 (Symbol-to-Symbol Derivatives)](https://www.deeplearningbook.org/contents/mlp.html) [in Chapter 6.5 (Back-Propagation and Other Differentiation Algorithms)] of the [Goodfellow et al. textbook](https://www.deeplearningbook.org/); however, our language preferences will really just come down to ease of implementation of SWAG and (Ryan and Haining's) propsed "dilution" treatment of NF parameterization.
+   2. The "universal approximation" character of NN methodology (also a hallmark of GP methodology) is suggested in [this cool visual](https://arogozhnikov.github.io/3d_nn/) and addressed in [Chapter 6.4.1 (Universal Approximation)](https://www.deeplearningbook.org/contents/mlp.html) of the [Goodfellow et al. textbook](https://www.deeplearningbook.org/).
+   3. The [PyMC3 documentation](https://docs.pymc.io/en/v3/) is a good place to start for MCMC. For the underlying HMC methodology [this cool visual](https://arogozhnikov.github.io/2016/12/19/markov_chain_monte_carlo.html) provides some initial intuition, and for the details see [Radford Neal's seminal paper](https://arxiv.org/pdf/1206.1901.pdf).
+        - By the way, there's something called [Hamiltonian Flows](https://arxiv.org/abs/2203.05723).  I'm just not sure what it really is yet. 
 
 # Roadmap
 
