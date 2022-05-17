@@ -113,8 +113,11 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
    1. Graph construction using "symbol-to-number" (Torch/Caffe) versus "extended graph" derivative representations (Theano/TensorFlow) is discussed in [Chapter 6.5.5 (Symbol-to-Symbol Derivatives)](https://www.deeplearningbook.org/contents/mlp.html) [in Chapter 6.5 (Back-Propagation and Other Differentiation Algorithms)] of the [Goodfellow et al. textbook](https://www.deeplearningbook.org/); however, our language preferences will really just come down to ease of implementation of SWAG and (Ryan and Haining's) propsed "dilution" treatment of NF parameterization.
    2. The "universal approximation" character of NN methodology (also a hallmark of GP methodology) is suggested in [this cool visual](https://arogozhnikov.github.io/3d_nn/) and addressed in [Chapter 6.4.1 (Universal Approximation)](https://www.deeplearningbook.org/contents/mlp.html) of the [Goodfellow et al. textbook](https://www.deeplearningbook.org/).
+        - Speaking of the GP (for which many reference resources abound), here's [a cool visual](https://distill.pub/2019/visual-exploration-gaussian-processes/) of the GP, and a [discussion](https://stats.stackexchange.com/questions/534449/why-is-the-posterior-of-a-neural-network-gaussian-process-equal-to-the-posterior) of how a NN can be shown to (in the limit) be equivalent to a GP.  [Subsequently, a sparse spectrum GP approximates a GP, and an MC-dropout NN can be shown (in the limit) to be equivalent (i.e., have the same objective function) as a sparse spectrum GP].
    3. The [PyMC3 documentation](https://docs.pymc.io/en/v3/) is a good place to start for MCMC. For the underlying HMC methodology [this cool visual](https://arogozhnikov.github.io/2016/12/19/markov_chain_monte_carlo.html) provides some initial intuition, and for the details see [Radford Neal's seminal paper](https://arxiv.org/pdf/1206.1901.pdf).
         - By the way, there's something called [Hamiltonian Flows](https://arxiv.org/abs/2203.05723).  I'm just not sure what it really is yet. 
+
+
 
 # Roadmap
 
