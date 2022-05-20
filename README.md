@@ -86,7 +86,10 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
       
    - Haining/Eric will create a presentation of the [SWAG](https://www.google.com/search?channel=trow5&client=firefox-b-d&q=swag+bayes+approximation) manuscript including all of it's introductory and contextual material.
       - It seems the SGLD citation [59] may be a key reference (highlighted also in manuscript footnote 3)
+            - Is SGD just the "cheap version" of [Langevin dynamics](https://en.wikipedia.org/wiki/Stochastic_gradient_Langevin_dynamics)?
       - References [45] and [39] appear of possible interest
+      - Covariance should be [single pass computable](https://stackoverflow.com/questions/37809790/running-one-pass-calculation-of-covariance)
+      - Wilson et al. (along with Goodfellow et al. in [Chapter 8.2.2 (Local Minima)](https://www.deeplearningbook.org/contents/optimization.html) believe local modes are likely interpretable as "weight space symmetry", and feel they are often not pathelogical mis-fitting or problematic model non-identifiabilities; thus, Wilson et al. indeed *exactly* propose to characterize posterior uncertainty as the uncertainty within a local mode of the loss function as exchangable with any other local mode.
       - Fun fact: ["Neal [49]"](https://www.cs.toronto.edu/~radford/homepage.html)
       - Etc., where "Etc." means identifying and gathering together relevant BDL literature that might be helpful to us
    - Ryan/Yichen will create a presentation on [Stochastic Normalizing Flows](https://arxiv.org/abs/2002.06707) which will include general introducions the following general topics and then explain their specific applications in the manuscript.
