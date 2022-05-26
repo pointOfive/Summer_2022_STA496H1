@@ -110,7 +110,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
         On page 7 the paper says: "Note that neural spline flows perform better than RealNVP without reweighting, but significantly worse with reweighting - presumably because the sharper features representable by splines can be detrimental for reweighting weights."  I think this is saying that the NSF is not sufficiently heavy tailed to be a good importance sampling proposal. What do you think?
         </details>
 
-5. Optional Foundations Material 
+6. Optional Foundations Material 
 
    <details><summary>Are we leaving TF for PyTorch?</summary><img src="files/images/therewillBB.gif"></details>
 
@@ -120,7 +120,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
    3. The [PyMC3 documentation](https://docs.pymc.io/en/v3/) is a good place to start for MCMC. For the underlying HMC methodology [this cool visual](https://arogozhnikov.github.io/2016/12/19/markov_chain_monte_carlo.html) provides some initial intuition, and for the details see [Radford Neal's seminal paper](https://arxiv.org/pdf/1206.1901.pdf).
         - By the way, there's something called [Hamiltonian Flows](https://arxiv.org/abs/2203.05723).  I'm just not sure what it really is yet. 
 
-6. **Intermediate Objective**: special presentation targetting David Duvenaud, Murat Erdogdu, Nathan Taback (outgoing DoSS Director of DS, incoming DoSS Associate Chair of UG Studies), Scott Schwartz (incoming DoSS Director of DS), and Radu Craiu (outgoing DoSS Chair).
+7. **Intermediate Objective**: special presentation targetting David Duvenaud, Murat Erdogdu, Nathan Taback (outgoing DoSS Director of DS, incoming DoSS Associate Chair of UG Studies), Scott Schwartz (incoming DoSS Director of DS), and Radu Craiu (outgoing DoSS Chair).
     - The intention of this meeting is to raise awareness of and increase interest in undergraduate research within the DoSS by showcasing the success of our own research efforts.
     - Additinoally, attracting the immediate and long-term engagement of potential collaborators David Duvenaud and Murat Erdogdu would likely raise the profile of our work beyong the DoSS.
     - Other potential invites include incoming intermim DoSS Chair Michael Evans, Dan Roy, and Jeff Rosenthal; however, while all of the aforementioned individuals are computationally oriented with interests in theoretical MCMC, it remains to be determined if our topic is well-aligned and of interest relative to their research interests.
