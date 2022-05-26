@@ -122,7 +122,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
 7. **Intermediate Objective**: special presentation targetting David Duvenaud, Murat Erdogdu, Rohan Alexander (Assistant Director of CANSSI Ontario, etc.), Nathan Taback (outgoing DoSS Director of DS, incoming DoSS Associate Chair of UG Studies), Scott Schwartz (incoming DoSS Director of DS), and Radu Craiu (outgoing DoSS Chair).
     - The intention of this meeting is to raise awareness of and increase interest in undergraduate research within the DoSS by showcasing the success of our own research efforts.
-    - Additinoally, attracting the immediate and long-term engagement of potential collaborators David Duvenaud and Murat Erdogdu would likely raise the profile of our work beyong the DoSS.
+    - Additionally, attracting the immediate and long-term engagement of potential collaborators David Duvenaud and Murat Erdogdu would likely raise the profile of our work beyong the DoSS.
     - Other potential invites include incoming intermim DoSS Chair Michael Evans, Dan Roy, and Jeff Rosenthal; however, while all of the aforementioned individuals are computationally oriented with interests in theoretical MCMC, it remains to be determined if our topic is well-aligned and of interest relative to their research interests.
 
 # Roadmap
