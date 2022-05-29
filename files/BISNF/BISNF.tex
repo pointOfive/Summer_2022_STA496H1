@@ -1,0 +1,68 @@
+\documentclass[11pt, oneside]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+%SetFonts
+
+%SetFonts
+
+
+\title{Nonparametric Bayesian analysis using Normalizing Flows (better funner title, please)}
+\author{Ji, Jiang, Tan, Wang, Schwartz}
+%\date{}							% Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+All explanations should be about one to two sentences only, and should primarily rely upon appropriate referencing.
+
+\subsection{Bayesian Analysis (Haining/Yichen)}
+\begin{itemize}
+\item Bayesian updating, including posteriors as subsequent priors
+\item General arguments: full uncertainty characterization, Bayesian model averaging [Yichen]
+\item General criticisms: priors [Yichen]
+\item MCMC/MH/HMC
+\item VI
+\item Importance Sampling
+\end{itemize}
+
+\subsection{Bayesian Deep Learning (Yichen/Eric/Haining)}
+\begin{itemize}
+\item General criticisms
+\item BBB
+\item GP approximation with MC-dropout [Eric]
+\item SWAG
+\item criticize VAE "bayesian language" usage (to clarify what of focus is in Bayesian analysis) [Haining] 
+\end{itemize}
+
+\subsection{Normalizing Flows (Ryan/Yichen)}
+\begin{itemize}
+\item Introduction to Generative Models [Yichen]
+\item Conditioners
+\item Transformer/Coupling functions
+\item Alternatives such as stochastic ODEs
+\item Computation
+\item Importance sampling under base-to-target as prior-to-posterior (e.g., SNF, Müller)
+\end{itemize}
+
+\section{Method (Scott first draft)}
+
+\subsection{nonparametric NF likelihood, SWAG prior, importance sampling posterior}
+\subsection{computation: core sets, online covariance estimation, sampling}
+
+\section{Examples}
+\subsection{mean variance normal posterior}
+\subsection{repeat SWAG analyses}
+\subsection{regression}
+\subsection{mixed effects models}
+
+\section{Discussion}
+
+\end{document}  
