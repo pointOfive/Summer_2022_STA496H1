@@ -20,7 +20,7 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
 
 Students must have experience working in TensorFlow (or PyTorch, etc.) as evidenced by course or portfolio work.  Students must have a solid understanding of Bayesian Analysis and familiarity with applied computation, i.e., as should generally be the case for students who have taken the appropriate advanced coursework.  Strong interest in Bayesian, neural network, and computational methodology is of course preferred. And enthusiasm for and comfort with working through challenging problems in new areas is of course very beneficial for research work.
 
-# Onboarding
+## Onboarding
 
 0. Importance Sampling (IS) [(Givens/Hoeting Chapter 6.4.1)](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
    - [Some initial orienting questions and partial responses for your review](files/BayesImportanceSampling.ipynb)
@@ -80,7 +80,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
    <br><br>
 
-# Onboarding COMPLETED
+## Onboarding COMPLETED
 
 **May 26th 4PM Onboarding Material Presentation** [[PDF](files/HainingYichenRyan.pdf)]
 
