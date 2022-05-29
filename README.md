@@ -80,7 +80,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
    <br><br>
 
-5. **May 26th Review Presentation** [PDF](files/HainingYichenRyan.pdf)
+5. **May 26th 4PM Onboarding Material Presentation** [[PDF](files/HainingYichenRyan.pdf)]
 
 | Feedback | Topics | 
 |-|-|
