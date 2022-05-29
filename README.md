@@ -80,9 +80,9 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
    <br><br>
 
-## Onboarding COMPLETED
+## Onboarding Completed May 26th
 
-**May 26th 4PM Onboarding Material Presentation** [[PDF](files/HainingYichenRyan.pdf)]
+**May 26th 4PM Onboarding Material Presentation** [[PDF](files/HainingYichenRyan.pdf)] and *Proposed Mansuscript Outline and Writing Assignments* [[PDF](files/BISNF/BISNF.pdf), [tex](files/BISNF/BISNF.tex)]
 
 | Feedback | Topics | 
 |-|-|
@@ -90,13 +90,6 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 | [Yichen](files/presentation_comments_Yichen.md) | Generative Models, Normalizing Flows, BDL (BMA and Deep Ensembling, etc.) and its critiques |
 | [Ryan](files/presentation_comments_Ryan.md) | NF Determinant classes, Autoregressive NNs, conditioners/transformers (MAF, IAF, RealNVP), |
 |                                             | Linear Flows and Permutations, Residual Flows, and ODE/SDE Continuous Infinitesimal Flows | 
-
-*Proposed Mansuscript Outline and Writing Assignments* [[PDF](files/BISNF/BISNF.pdf), [tex](files/BISNF/BISNF.tex)]
-
-**Intermediate Objective**: special presentation targetting David Duvenaud, Murat Erdogdu, Rohan Alexander (Assistant Director of CANSSI Ontario, etc.), Nathan Taback (outgoing DoSS Director of DS, incoming DoSS Associate Chair of UG Studies), Scott Schwartz (incoming DoSS Director of DS), and Radu Craiu (outgoing DoSS Chair).
-- The intention of this meeting is to raise awareness of and increase interest in undergraduate research within the DoSS by showcasing the success of our own research efforts.
-- Additionally, attracting the immediate and long-term engagement of potential collaborators David Duvenaud and Murat Erdogdu would likely raise the profile of our work beyong the DoSS.
-- Other potential invites include incoming intermim DoSS Chair Michael Evans, Dan Roy, and Jeff Rosenthal; however, while all of the aforementioned individuals are computationally oriented with interests in theoretical MCMC, it remains to be determined if our topic is well-aligned and of interest relative to their research interests.
 
 ## Roadmap
 
@@ -118,7 +111,12 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 | *Will ask Radu about poster crash | ISBA, Montreal | First time ever hosted in Canada | June 26 - July 1 |
 | Paper May 16/19 Poster October 12 | NeurIPS, New Orleans | Bayesian Deep Learning Workshop | Nov 28 - Dec 9 | 
 
-# Current Loose Ends
+**Intermediate Objective**: special presentation targetting David Duvenaud, Murat Erdogdu, Rohan Alexander (Assistant Director of CANSSI Ontario, etc.), Nathan Taback (outgoing DoSS Director of DS, incoming DoSS Associate Chair of UG Studies), Scott Schwartz (incoming DoSS Director of DS), and Radu Craiu (outgoing DoSS Chair).
+- The intention of this meeting is to raise awareness of and increase interest in undergraduate research within the DoSS by showcasing the success of our own research efforts.
+- Additionally, attracting the immediate and long-term engagement of potential collaborators David Duvenaud and Murat Erdogdu would likely raise the profile of our work beyong the DoSS.
+- Other potential invites include incoming intermim DoSS Chair Michael Evans, Dan Roy, and Jeff Rosenthal; however, while all of the aforementioned individuals are computationally oriented with interests in theoretical MCMC, it remains to be determined if our topic is well-aligned and of interest relative to their research interests.
+
+## Current Loose Ends
 
 1. Parallelize 
    
