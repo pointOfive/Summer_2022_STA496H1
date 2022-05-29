@@ -20,7 +20,7 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
 
 Students must have experience working in TensorFlow (or PyTorch, etc.) as evidenced by course or portfolio work.  Students must have a solid understanding of Bayesian Analysis and familiarity with applied computation, i.e., as should generally be the case for students who have taken the appropriate advanced coursework.  Strong interest in Bayesian, neural network, and computational methodology is of course preferred. And enthusiasm for and comfort with working through challenging problems in new areas is of course very beneficial for research work.
 
-# Setup
+# Onboarding
 
 0. Importance Sampling (IS) [(Givens/Hoeting Chapter 6.4.1)](https://librarysearch.library.utoronto.ca/permalink/01UTORONTO_INST/14bjeso/alma991106781097906196)
    - [Some initial orienting questions and partial responses for your review](files/BayesImportanceSampling.ipynb)
@@ -80,7 +80,9 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
    <br><br>
 
-5. **May 26th 4PM Onboarding Material Presentation** [[PDF](files/HainingYichenRyan.pdf)]
+# Onboarding COMPLETED
+
+**May 26th 4PM Onboarding Material Presentation** [[PDF](files/HainingYichenRyan.pdf)]
 
 | Feedback | Topics | 
 |-|-|
@@ -89,9 +91,36 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 | [Ryan](files/presentation_comments_Ryan.md) | NF Determinant classes, Autoregressive NNs, conditioners/transformers (MAF, IAF, RealNVP), |
 |                                             | Linear Flows and Permutations, Residual Flows, and ODE/SDE Continuous Infinitesimal Flows | 
 
-6. *Proposed Mansuscript Outline and Writing Assignments* [[PDF](files/BISNF/BISNF.pdf), [tex](files/BISNF/BISNF.tex)]
+*Proposed Mansuscript Outline and Writing Assignments* [[PDF](files/BISNF/BISNF.pdf), [tex](files/BISNF/BISNF.tex)]
 
-7. Parallelize 
+**Intermediate Objective**: special presentation targetting David Duvenaud, Murat Erdogdu, Rohan Alexander (Assistant Director of CANSSI Ontario, etc.), Nathan Taback (outgoing DoSS Director of DS, incoming DoSS Associate Chair of UG Studies), Scott Schwartz (incoming DoSS Director of DS), and Radu Craiu (outgoing DoSS Chair).
+- The intention of this meeting is to raise awareness of and increase interest in undergraduate research within the DoSS by showcasing the success of our own research efforts.
+- Additionally, attracting the immediate and long-term engagement of potential collaborators David Duvenaud and Murat Erdogdu would likely raise the profile of our work beyong the DoSS.
+- Other potential invites include incoming intermim DoSS Chair Michael Evans, Dan Roy, and Jeff Rosenthal; however, while all of the aforementioned individuals are computationally oriented with interests in theoretical MCMC, it remains to be determined if our topic is well-aligned and of interest relative to their research interests.
+
+## Roadmap
+
+| Week of | Days | Topics | Deliverable | Target | 
+|-|-|-|-|-|
+|May 9| 4 | IS, EB, VI, BBB | | |
+|May 16| 4 | GP, MC-Dropout, NF | | |
+|May 23| 4 | SWAG, SNF | Slides Presentation I: IS through NF | May 26 | 
+|May 30| 4 | SWAG, SNF | Slides Presentation II: SWAG and SNF | June 2 |
+|June 6| 4 | Coding / Writing | Outline Planned Paper | June 9 |
+|June 13| 3 | Coding / Writing | Finalize Analysis Examples | June 16 |
+|June 20| 3 | Coding / Writing | Draft Manuscript Version I | June 23 |
+|June 27| 3 | Coding / Writing | Draft Manuscript Version II | June 30 |
+|July 4| 3 | | Final Manuscript Submission | ASAP |
+|July 11| 3 | | final poster or slides presentation | TBA |
+
+| Deadline | Event | Special Note | Dates |
+|-|-|-|-|
+| *Will ask Radu about poster crash | ISBA, Montreal | First time ever hosted in Canada | June 26 - July 1 |
+| Paper May 16/19 Poster October 12 | NeurIPS, New Orleans | Bayesian Deep Learning Workshop | Nov 28 - Dec 9 | 
+
+# Current Loose Ends
+
+1. Parallelize 
    
    <details><summary>Our powers combinded</summary><img src="files/images/capn.gif"></details>
       
@@ -121,7 +150,7 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
         On page 7 the paper says: "Note that neural spline flows perform better than RealNVP without reweighting, but significantly worse with reweighting - presumably because the sharper features representable by splines can be detrimental for reweighting weights."  I think this is saying that the NSF is not sufficiently heavy tailed to be a good importance sampling proposal. What do you think?
         </details>
 
-8. Optional Foundations Material 
+2. Optional Foundations Material 
 
    <details><summary>Are we leaving TF for PyTorch?</summary><img src="files/images/therewillBB.gif"></details>
 
@@ -130,28 +159,3 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
         - Speaking of the GP (for which many reference resources abound), here's [a cool visual](https://distill.pub/2019/visual-exploration-gaussian-processes/) of the GP, and a [discussion](https://stats.stackexchange.com/questions/534449/why-is-the-posterior-of-a-neural-network-gaussian-process-equal-to-the-posterior) of how a NN can be shown to (in the limit) be equivalent to a GP.  [Subsequently, a sparse spectrum GP approximates a GP, and an MC-dropout NN can be shown (in the limit) to be equivalent (i.e., have the same objective function) as a sparse spectrum GP].
    3. The [PyMC3 documentation](https://docs.pymc.io/en/v3/) is a good place to start for MCMC. For the underlying HMC methodology [this cool visual](https://arogozhnikov.github.io/2016/12/19/markov_chain_monte_carlo.html) provides some initial intuition, and for the details see [Radford Neal's seminal paper](https://arxiv.org/pdf/1206.1901.pdf).
         - By the way, there's something called [Hamiltonian Flows](https://arxiv.org/abs/2203.05723).  I'm just not sure what it really is yet. 
-
-9. **Intermediate Objective**: special presentation targetting David Duvenaud, Murat Erdogdu, Rohan Alexander (Assistant Director of CANSSI Ontario, etc.), Nathan Taback (outgoing DoSS Director of DS, incoming DoSS Associate Chair of UG Studies), Scott Schwartz (incoming DoSS Director of DS), and Radu Craiu (outgoing DoSS Chair).
-    - The intention of this meeting is to raise awareness of and increase interest in undergraduate research within the DoSS by showcasing the success of our own research efforts.
-    - Additionally, attracting the immediate and long-term engagement of potential collaborators David Duvenaud and Murat Erdogdu would likely raise the profile of our work beyong the DoSS.
-    - Other potential invites include incoming intermim DoSS Chair Michael Evans, Dan Roy, and Jeff Rosenthal; however, while all of the aforementioned individuals are computationally oriented with interests in theoretical MCMC, it remains to be determined if our topic is well-aligned and of interest relative to their research interests.
-
-# Roadmap
-
-| Week of | Days | Topics | Deliverable | Target | 
-|-|-|-|-|-|
-|May 9| 4 | IS, EB, VI, BBB | | |
-|May 16| 4 | GP, MC-Dropout, NF | | |
-|May 23| 4 | SWAG, SNF | Slides Presentation I: IS through NF | May 26 | 
-|May 30| 4 | SWAG, SNF | Slides Presentation II: SWAG and SNF | June 2 |
-|June 6| 4 | Coding / Writing | Outline Planned Paper | June 9 |
-|June 13| 3 | Coding / Writing | Finalize Analysis Examples | June 16 |
-|June 20| 3 | Coding / Writing | Draft Manuscript Version I | June 23 |
-|June 27| 3 | Coding / Writing | Draft Manuscript Version II | June 30 |
-|July 4| 3 | | Final Manuscript Submission | ASAP |
-|July 11| 3 | | final poster or slides presentation | TBA |
-
-| Deadline | Event | Special Note | Dates |
-|-|-|-|-|
-| *Will ask Radu about poster crash | ISBA, Montreal | First time ever hosted in Canada | June 26 - July 1 |
-| Paper May 16/19 Poster October 12 | NeurIPS, New Orleans | Bayesian Deep Learning Workshop | Nov 28 - Dec 9 | 
