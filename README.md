@@ -83,12 +83,12 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 ## Onboarding Completed
 
 - **May 26th 4PM Onboarding Material Presentations** [[MCMC/VI+BDL+NF](files/HainingYichenRyan.pdf)] 
-- **May 30th 4PM Onboarding Material Presentations**: [GP+MC-Dropout](files/files/GaussianProcessesMCDropout.pdf) and [SWAG](files/files/GaussianProcessesMCDropout.pdf)
+- **May 30th 4PM Onboarding Material Presentations**: [GP+MC-Dropout](files/GaussianProcessesMCDropout.pdf) and [SWAG](files/SWAG.pdf)
 - Proposed Mansuscript Outline and Writing Assignments [[PDF](files/BISNF/BISNF.pdf), [tex](files/BISNF/BISNF.tex)]
 
 | Feedback | Topics | 
 |-|-|
-| [Haining](files/presentation_comments_Haining.md) | Importance Sampling, MCMC (MH, SGLD, HMC, Gibbs), Variational Inference (VAE, BBB), [SWAG](files/GaussianProcessesMCDropout.pdf) | 
+| [Haining](files/presentation_comments_Haining.md) | Importance Sampling, MCMC (MH, SGLD, HMC, Gibbs), Variational Inference (VAE, BBB), [SWAG](files/SWAG.pdf) | 
 | [Eric](files/GaussianProcessesMCDropout.pdf) | Gaussian Processes (GP) and MC-Dropout as posterior GP approximation |
 | [Yichen](files/presentation_comments_Yichen.md) | Generative Models, Normalizing Flows, BDL (BMA and Deep Ensembling, etc.) and its critiques |
 | [Ryan](files/presentation_comments_Ryan.md) | NF Determinant classes, Autoregressive NNs, conditioners/transformers (MAF, IAF, RealNVP), |
