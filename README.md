@@ -80,13 +80,16 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
     4. Masked/Inverse Autoregressive Flows (MAF/IAF), but not RealNVP or Hamiltonian Flows
    <br><br>
 
-## Onboarding Completed May 26th
+## Onboarding Completed
 
-**May 26th 4PM Onboarding Material Presentation** [[PDF](files/HainingYichenRyan.pdf)] and *Proposed Mansuscript Outline and Writing Assignments* [[PDF](files/BISNF/BISNF.pdf), [tex](files/BISNF/BISNF.tex)]
+- **May 26th 4PM Onboarding Material Presentations** [[MCMC/VI+BDL+NF](files/HainingYichenRyan.pdf)] 
+- **May 30th 4PM Onboarding Material Presentations**: [GP+MC-Dropout](files/files/GaussianProcessesMCDropout.pdf) and [SWAG](files/files/GaussianProcessesMCDropout.pdf)
+- Proposed Mansuscript Outline and Writing Assignments [[PDF](files/BISNF/BISNF.pdf), [tex](files/BISNF/BISNF.tex)]
 
 | Feedback | Topics | 
 |-|-|
-| [Haining](files/presentation_comments_Haining.md) | Importance Sampling, MCMC (MH, SGLD, HMC, Gibbs), Variational Inference (the VAE and BBB) | 
+| [Haining](files/presentation_comments_Haining.md) | Importance Sampling, MCMC (MH, SGLD, HMC, Gibbs), Variational Inference (VAE, BBB), SWAG | 
+| [Eric](files/files/GaussianProcessesMCDropout.pdf) | Gaussian Processes and MC-Dropout |
 | [Yichen](files/presentation_comments_Yichen.md) | Generative Models, Normalizing Flows, BDL (BMA and Deep Ensembling, etc.) and its critiques |
 | [Ryan](files/presentation_comments_Ryan.md) | NF Determinant classes, Autoregressive NNs, conditioners/transformers (MAF, IAF, RealNVP), |
 |                                             | Linear Flows and Permutations, Residual Flows, and ODE/SDE Continuous Infinitesimal Flows | 
