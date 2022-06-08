@@ -88,8 +88,8 @@ Students must have experience working in TensorFlow (or PyTorch, etc.) as eviden
 
 | Feedback | Topics | 
 |-|-|
-| [Haining](files/presentation_comments_Haining.md) | Importance Sampling, MCMC (MH, SGLD, HMC, Gibbs), Variational Inference (VAE, BBB), SWAG | 
-| [Eric](files/files/GaussianProcessesMCDropout.pdf) | Gaussian Processes (GP) and MC-Dropout as posterior GP approximation |
+| [Haining](files/presentation_comments_Haining.md) | Importance Sampling, MCMC (MH, SGLD, HMC, Gibbs), Variational Inference (VAE, BBB), [SWAG](files/GaussianProcessesMCDropout.pdf) | 
+| [Eric](files/GaussianProcessesMCDropout.pdf) | Gaussian Processes (GP) and MC-Dropout as posterior GP approximation |
 | [Yichen](files/presentation_comments_Yichen.md) | Generative Models, Normalizing Flows, BDL (BMA and Deep Ensembling, etc.) and its critiques |
 | [Ryan](files/presentation_comments_Ryan.md) | NF Determinant classes, Autoregressive NNs, conditioners/transformers (MAF, IAF, RealNVP), |
 |                                             | Linear Flows and Permutations, Residual Flows, and ODE/SDE Continuous Infinitesimal Flows | 
